@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/icon" href="assets/images/favicon.png" />
+    <title>Lyndale Cancer Support Centre</title>
+  </head>
+  <body>
+    <button
+      onclick="topFunction()"
+      id="ScrollToTop"
+      title="Go to top"
+      style="display: inline-block"
+    >
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <header class="position-fixed top-0 w-100 start-0">
+      <div class="main-header">
+        <nav class="navbar navbar-expand-lg p-0 py-3">
+          <div class="container">
+            <a href="index.html" class="navbar-brand p-0 me-0">
+              <img
+                src="assets/images/logo.svg"
+                alt="Site Logo"
+                class="img-fluid w-100"
+              />
+            </a>
+            <div class="nav-right">
+              <div
+                class="offcanvas offcanvas-start"
+                id="navbarOffcanvas"
+                tabindex="-1"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header d-block d-lg-none">
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body d-lg-flex align-items-center gap-4">
+                  <ul class="navbar-nav justify-content-lg-end flex-grow-1">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">What we offer </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Lyndale History </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler ms-3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas"
+                aria-controls="navbarOffcanvas"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon">
+                  <i class="fa-solid fa-bars"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="banner-sec">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/hero-banner.jpg"
+              class="img-fluid w-100 h-100 object-cover"
+              alt="Hero banner"
+            />
+            <div
+              class="container position-absolute bottom-0 start-50 translate-middle-x w-100"
+            >
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="carousel-text wow animate__fadeInUp">
+                    <span
+                      class="fs-20 ls-100 fw-500 text-uppercase text-white d-inline-block mb-3"
+                    >
+                      We Support people
+                    </span>
+                    <h1 class="fw-400 mb-5 pb-lg-5 text-white">
+                      Lyndale is a charity providing support to people with
+                      cancer and their family in a warm and friendly environment
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="welcome-sec py-5 bg-primary">
+      <div class="container pt-lg-4 pb-lg-5">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="welcome-logo d-flex align-items-center gap-4 mb-4 pb-3">
+              <div class="wel-logo">
+                <img
+                  src="assets/images/wel-logo-1.png"
+                  alt="Logo "
+                  class="img-fluid"
+                />
+              </div>
+              <div class="wel-logo">
+                <img
+                  src="assets/images/wel-logo-2.png"
+                  alt="Logo "
+                  class="img-fluid"
+                />
+              </div>
+              <div class="wel-logo">
+                <img
+                  src="assets/images/wel-logo-3.png"
+                  alt="Logo "
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="welcome-wrap wow animate__fadeInUp">
+              <h2 class="fs-50 lh-1 fw-normal text-white mb-3">
+                Lyndale is based in Huyton, Knowsley however support is
+                available to people from all over Merseyside and the Wirral. No
+                referral is necessary you can just drop-in, give us a call or
+                email us
+              </h2>
+              <p class="fs-26 fw-500 text-white fff lh-1-4">
+                Lyndale was founded in 1983 by a local resident and has built
+                strong links with all the local hospitals and hospices, GP's and
+                other health professionals. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="audiology-sec py-5 bg-light">
+      <div class="container">
+        <div class="audiology-heading">
+          <span
+            class="fs-20 ls-100 fw-500 text-uppercase fff text-primary d-inline-block mb-3"
+          >
+            Our Services
+          </span>
+          <h2 class="fs-50 fw-normal text-primary lh-1 wow animate__fadeInUp">
+            Supporting cancer patients and their loved ones <br />
+            from diagnosis and beyond
+          </h2>
+        </div>
+        <div class="row mt-lg-5 mt-4 pt-lg-2 g-lg-5">
+          <div class="col-lg-3 col-md-6 my-md-4 my-3 my-lg-0 wow animate__fadeInUp">
+            <div class="audiology-wrap overflow-hidden h-100">
+              <div class="audio-img">
+                <img
+                  src="assets/images/serv-img.jpg"
+                  alt="Services img"
+                  class="img-fluid h-100 w-100 object-cover"
+                />
+              </div>
+              <div class="audio-text py-3">
+                <h3 class="fs-30 fw-300 text-primary mb-0 lh-1-4">
+                  One to one support and group support
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 my-md-4 my-3 my-lg-0 wow animate__fadeInUp">
+            <div class="audiology-wrap overflow-hidden h-100">
+              <div class="audio-img">
+                <img
+                  src="assets/images/serv-img2.jpg"
+                  alt="Services img"
+                  class="img-fluid h-100 w-100 object-cover"
+                />
+              </div>
+              <div class="audio-text py-3">
+                <h3 class="fs-30 fw-300 text-primary mb-0 lh-1-4">
+                  Complementary therapies
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 my-md-4 my-3 my-lg-0 wow animate__fadeInUp">
+            <div class="audiology-wrap overflow-hidden h-100">
+              <div class="audio-img">
+                <img
+                  src="assets/images/serv-img3.jpg"
+                  alt="Services img"
+                  class="img-fluid h-100 w-100 object-cover"
+                />
+              </div>
+              <div class="audio-text py-3">
+                <h3 class="fs-30 fw-300 text-primary mb-0 lh-1-4">
+                  Yoga, meditation and relaxation sessions to suit
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 my-md-4 my-3 my-lg-0 wow animate__fadeInUp">
+            <div class="audiology-wrap overflow-hidden h-100">
+              <div class="audio-img">
+                <img
+                  src="assets/images/serv-img4.jpg"
+                  alt="Services img"
+                  class="img-fluid h-100 w-100 object-cover"
+                />
+              </div>
+              <div class="audio-text py-3">
+                <h3 class="fs-30 fw-300 text-primary mb-0 lh-1-4">
+                  Days out and fundraising events
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="donate-btn mt-md-5 mt-4">
+          <a href="#" class="btn btn-primary"> Donate </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="provide-sec overflow-hidden">
+      <div class="container-fluid p-0">
+        <div class="row g-lg-5">
+          <div class="col-lg-5 p-0">
+            <div class="provide-img h-100">
+              <img
+                src="assets/images/provide-img.jpg"
+                alt="Provide Img"
+                class="img-fluid w-100 h-100 object-cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 wow animate__fadeInUp bg-primary p-0">
+            <div
+              class="provide-wrap d-flex w-100 h-100 align-items-center px-sm-5 px-3"
+            >
+              <div class="welcome-text p-md-5 p-4 mx-xl-5 w-75">
+                <span
+                  class="fs-20 ls-100 fw-500 text-uppercase fff text-white d-inline-block mb-3"
+                >
+                  WHAT WE PROVIDE
+                </span>
+
+                <p class="fs-26 fw-500 fff lh-1-5 text-white">
+                  We provide one to one support, group support, free
+                  complementary therapies, yoga and relaxation sessions. Our
+                  volunteers organise days out, fundraising activities, theatre
+                  trips and more. We apply for grants to enable us to provide
+                  therapies, craft and art classes which renews people's
+                  confidence and wellbeing. People make friends as they share
+                  their journey with cancer and the treatments while also
+                  supporting each other.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-sec py-5 overflow-hidden bg-light">
+      <div class="container py-md-4">
+        <div class="testimonial-heading wow animate__fadeInUp text-center">
+          <div class="quote-img mb-4">
+            <img
+              src="assets/images/quote-img.png"
+              alt="quote img"
+              class="img-fluid"
+            />
+          </div>
+          <h2 class="fs-50 fw-600 lh-1 text-primary mb-4">Testimonials</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="testimonial-wrap wow animate__fadeInUp">
+              <div class="testimonial-bx text-center">
+                <div
+                  class="testimonial-stars d-flex gap-2 mb-3 justify-content-center"
+                >
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="fs-25 fff fw-normal md-3 lh-1-5">
+                  Professionally curated content that resonates with your
+                  website visitors, designed to captivate, and leave a lasting
+                  impression. With high-quality content visitors are more likely
+                  to engage and spend more time on your website, rather than
+                  losing interest and going elsewhere
+                </p>
+                <span class="fs-20 fw-600 fff text-primary">
+                  Renee Steepe
+                </span>
+              </div>
+              <div class="testimonial-bx text-center">
+                <div
+                  class="testimonial-stars d-flex gap-2 mb-3 justify-content-center"
+                >
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="fs-25 fff fw-normal md-3 lh-1-5">
+                  Professionally curated content that resonates with your
+                  website visitors, designed to captivate, and leave a lasting
+                  impression. With high-quality content visitors are more likely
+                  to engage and spend more time on your website, rather than
+                  losing interest and going elsewhere
+                </p>
+                <span class="fs-20 fw-600 fff text-primary">
+                  Renee Steepe
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-5 bg-primary">
+      <div class="container pt-4">
+        <div class="row footer-row">
+          <div class="col-lg-8">
+            <div class="footer-wrap text-center text-md-start">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 border-end border-2 mb-4 mb-md-0">
+                  <div class="footer-bx">
+                    <ul>
+                      <li>
+                        <strong class="fw-700"> Address: </strong>
+                      </li>
+                      <li>
+                        Lyndale Cancer Support Centre <br />40, Huyton Lane
+                        <br />
+                        Liverpool <br />
+                        Merseyside, L36 7XG
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                  <div class="footer-bx ps-3">
+                    <ul>
+                      <li>
+                        <strong class="fw-700"> Telephone : </strong>
+                        <a href="tel:01514893538"> 0151 489 3538</a>
+                      </li>
+                      <li>
+                        <strong class="fw-700"> Office hours : </strong> 10am to
+                        3pm
+                      </li>
+                      <li>
+                        <strong class="fw-700"> Charity number : </strong>
+                        519725
+                      </li>
+                      <li>
+                        <strong class="fw-700"> E-mail : </strong>
+                        <a href="mailto:support@lyndalecancersupport.co.uk"
+                          >  support@lyndalecancersupport.co.uk</a
+                        >
+                      </li>
+                      <li>
+                        <strong class="fw-700"> Website : </strong>
+                        <a href="www.lyndalecancersupportcentre.co.uk">
+                          www.lyndalecancersupportcentre.co.uk</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-wrap">
+              <div
+                class="footer-img text-lg-end text-md-start text-center mb-4 mb-lg-0"
+              >
+                <a href="index.html">
+                  <img
+                    src="assets/images/footer-logo.svg"
+                    alt="Footer Logo"
+                    class="img-fluid w-100"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right mt-5 text-center text-md-start">
+          <p class="fs-16 fw-300 text-white mb-0">
+            © Copyright 2025 All rights reserved. | Lyndale Cancer Support
+            Centre. Web Design by ElevateOM
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      new WOW({ animateClass: "animate__animated" }).init();
+    </script>
+  </body>
+</html>
